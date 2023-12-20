@@ -1,7 +1,6 @@
-import { NextApiRequest } from "next";
-import {NextResponse} from "next/server";
+import {NextRequest, NextResponse} from "next/server";
 
-export function GET(req: NextApiRequest) {
+export function GET(req: NextRequest) {
 
     return NextResponse.json("Hello HoliYou !");
 }
